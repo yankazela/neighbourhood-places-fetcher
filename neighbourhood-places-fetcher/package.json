@@ -4,7 +4,7 @@
   "description": "this service fetches places from googleAPI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "./node_modules/nodemon/bin/nodemon.js index.js | bunyan"
   },
   "keywords": [
@@ -21,7 +21,11 @@
     "bunyan": "^1.8.12",
     "esm": "^3.2.22",
     "express": "^4.16.4",
+    "jest": "^24.8.0",
     "node-heremaps": "0.0.2",
-    "save": "^2.3.3"
+    "save": "^2.3.3",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
   }
 }

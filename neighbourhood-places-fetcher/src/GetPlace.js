@@ -54,7 +54,7 @@ async function getListByPlace (place, geoCodes) {
     })
 }
 
-export async function distance (lat1, lon1, lat2, lon2, unit) {
+export function distance (lat1, lon1, lat2, lon2, unit) {
   if ((lat1 === lat2) && (lon1 === lon2)) {
     return 0
   } else {
